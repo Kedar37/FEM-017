@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <header>
+    <nav class="nav-bar">
+      <img src="/images/logo.svg" alt="logo img" class="nav-logo">
+      <ul class="nav-list">
+        <li class="nav-link">
+          <a href="#" class="nav-link">Features</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-link">Team</a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="nav-link">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero row">
+      <article class="hero-content col">
+        <h2 class="hero-title">
+          All your files in one secure location, accessible anywhere.
+        </h2>
+        <p class="hero-para">
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+        <form action="submit" class="hero-form">
+          <input type="text" id="email-field" name="email" placeholder="Enter your email">
+          <button type="submit">Get Started</button>
+        </form>
+      </article>
+
+      <div class="hero-img col">
+        <img src="/images/illustration-1.svg" alt="illustration-img" class="hero--img">
+      </div>
+    </section>
+
+    <section class="review-section row">
+      <div class="review-img">
+        <img src="/images/illustration-2.svg" alt="co-workers-illustration img">
+      </div>
+      <article class="review-content col">
+        <h2 class="review-title">
+          Stay productive, wherever you are
+        </h2>
+        <p class="review-para">
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+        <p class="review-para">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+        <a href="#" class="see-more-link">See how Fylo works</a>
+
+        <article class="testimonial-card col">
+          <img src="/images/icon-quotes.svg" alt="quote icon img" class="quote-icon">
+          <p class="testimonial-para">
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="profile-info row">
+            <img src="/images/avatar-testimonial.jpg" alt="profile-img" class="profile-img col">
+            <div class="user-info">
+              <span class="user-name">Kyle Burton</span>
+              <p class="user-role">
+                Founder & CEO, Huddle
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </article>
+
+    </section>
+
+    <section class="early-access-container row">
+      <article class="early-access-content col">
+        <h2 class="early-access-title">
+          Get early access today
+        </h2>
+        <p>
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </article>
+      <article class="early-access-form col">
+        <form action="submit" class="early-access-form">
+          <label for="email"></label>
+          <input type="text" id="email-field" name="email" placeholder="email@example.com">
+          <button type="submit">Get Started</button>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo-img">
+        <img src="/images/logo.svg" alt="footer logo" class="footer-logo">
+      </div>
+      
+    <section class="footer-wrap row">
+      <div class="company-info col">
+        <ul class="info-list">
+          <li>
+            <img src="/images/icon-phone.svg" alt="phone icon img">
+            <span>+1-543-123-4567</span>
+          </li>
+          <li>
+            <img src="/images/icon-email.svg" alt="mail icon img">
+            <span>example@fylo.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links col row">
+        <ul class="footer-link-list col">
+          <li>
+            <a href="#" class="footer-link">About us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Jobs</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Press</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+        </ul>
+
+        <ul class="footer-link-list col">
+          <li>
+            <a href="#" class="footer-link">Contact us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Terms</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Privacy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sns-links row col">
+        <a href="#">
+          <img src="/images/icon-facebook.svg" alt="facebook icon" class="col">
+        </a>
+        <a href="#">
+          <img src="/images/icon-twitter.svg" alt="twitter icon" class="col">
+        </a>
+        <a href="#">
+          <img src="/images/icon-instagram.svg" alt="instagram icon" class="col">
+        </a>
+      </div>
+
+    </section>
+
+  </footer>
+
+</body>
+</html>
